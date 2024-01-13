@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+} 
+
+body{
+   background: linear-gradient(to right , red, yellow);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box{
+    background-color: aqua;
+    width: fit-content;
+    padding: 50px;
+    box-shadow: 10px 10px 10px;
+
+}
+input{
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 6px;
+    background: linear-gradient(to right , red, yellow);
+}
+h1{
+  
+    color:white;
+}
+input[type="button"]{
+    background: linear-gradient(to bottom ,orange, white,green);
+    color:black;
+}
+label{
+    color: blue;
+}
